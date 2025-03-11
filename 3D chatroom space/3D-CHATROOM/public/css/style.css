@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(43, 43, 43);
+    font-family: 'Roboto', sans-serif;
+ 
+}
+header{
+    height:45px;
+    background-color:rgb(79, 79, 79);
+
+}
+header h1{
+    float: left;
+    color: white;
+    font-size: 45px;
+    text-align: left;
+}
+header h2{
+    float: right;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    
+}
+
+main{
+    margin-top:1vh;
+    background-color:rgb(243, 234, 180);
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:15px;
+ 
+}
+.odd{
+    margin-top:10px;
+    min-height: 120px;
+    background-color: fuchsia;
+    padding:5px;
+}
+.even{
+    padding:5px;
+    margin-top:10px;
+    min-height: 120px;
+    background-color: rgb(246, 149, 246);
+}
+
+
+h3{
+    margin-left:0%;
+    background:#616161;
+    width:40%;
+    padding:0%;
+} 
+
+#forChat{
+    margin-top:0%;
+    margin-left:0%;
+    background:#ffc400;
+    width:100%;
+    padding:0%;
+    font-size:22px;
+    color:rgb(255, 255, 255);
+}
+
+#forChat input{
+    font-size:16px;
+    width:80%;
+    height:50px
+}
+
+#sub{
+    font-size:16px;
+}
+
+#chatList li{
+    list-style-type: none;
+    padding:5px;
+    color:rgb(27, 26, 26);}
+
+#container ul{
+    width:40%;
+    margin-top: 1%;
+    margin-left:0%;
+    height: 650px;
+    background-color:rgb(174, 174, 174);
+    color:black;
+    padding:0;}
+
+#threedee{
+    float: right;
+    color:#FFFFFF;
+    margin-top: 1%;
+    margin-left: 40%;
+    background:#000000;
+    height: 650px;
+    width:60%;
+}

@@ -1,6 +1,6 @@
 //import the Express library
 let express = require('express');
-const portNumber =4200;
+const portNumber = 4200;
 let app = express(); //make an insatnce of express
 let httpServer = require('http').createServer(app);  // create a server (using the Express framework object)
  
@@ -36,6 +36,9 @@ io.on('connect', function(socket){
     console.log(data);
     socket.broadcast.emit("dataFromServer",data);
     //pass on
+
+    document.querySelector("chatList").appendChild('textData');
+
   });
 
 

@@ -24,7 +24,7 @@ clientSocket.emit('join', 'msg:: client joined');
         let liitem = document.createElement("li");
         liitem.style = "list";
         liitem.textContent = "user id:: " +incomingData.id +"   ----" +" message:: " +incomingData.data;
-        document.querySelector("#chatList").appendChild(liitem);
+        
       });
 
 
